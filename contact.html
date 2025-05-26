@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - [Church Name]</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">[Church Name]</h1>
+            <nav>
+                <button class="nav-toggle" aria-label="toggle navigation">
+                    <span class="hamburger"></span>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="sermons.html">Sermons</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-title">
+            <div class="container">
+                <h1>Contact Us</h1>
+            </div>
+        </section>
+
+        <section id="contact-info">
+            <div class="container">
+                <h2>Get in Touch</h2>
+                <p><strong>Address:</strong> [Your Church Address], [City], [State], [Zip Code]</p>
+                <p><strong>Phone:</strong> [Your Church Phone Number]</p>
+                <p><strong>Email:</strong> <a href="mailto:[Your Church Email]">[Your Church Email]</a></p>
+
+                <h3 id="service-times">Service Times</h3>
+                <p><strong>Sunday Morning Worship:</strong> [Time, e.g., 10:00 AM]</p>
+                <p><strong>Mid-week Service/Bible Study:</strong> [Day and Time, e.g., Wednesday 7:00 PM]</p>
+                <!-- Add other service times as needed -->
+            </div>
+        </section>
+
+        <section id="map">
+            <div class="container">
+                <h2>Find Us</h2>
+                <!-- You can embed a Google Map here. For now, a placeholder: -->
+                <div class="map-placeholder">
+                    <p>Map will be embedded here. Search for "Google Maps embed" to get the code.</p>
+                    <p>Example: &lt;iframe src="https://www.google.com/maps/embed?pb=..." width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"&gt;&lt;/iframe&gt;</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact-form-section">
+            <div class="container">
+                <h2>Send Us a Message</h2>
+                <p><em>Please note: This is a static HTML form. It will not send an email without additional server-side scripting or a third-party service.</em></p>
+                <form id="contact-form">
+                    <div>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div>
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> [Church Name]. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
